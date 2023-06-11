@@ -1,0 +1,20 @@
+1. Valid the model
+
+run the 'run_test.py'
+
+2. Train another model
+
+run the 'run_train.py'
+
+3. Other requirements
+(1) data feature
+put in the 'data/feature' directory, including 5 csv files, which are pretrained offline
+
+(2) environment
+python == 3.6
+pip install catboost xgboost scipy sklearn pandas
+
+4. Checkpoints and result
+The submission file is put in 'results' directory
+The model file is put in 'checkpoint' directory
+
